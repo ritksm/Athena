@@ -7,16 +7,8 @@ __author__ = 'Jack River'
 import os
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 
-
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = '<very secret key>'
-
-# SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
-
-TEMPLATE_DEBUG = False
-
-ALLOWED_HOSTS = ['*']
 
 # Database
 # https://docs.djangoproject.com/en/1.6/ref/settings/#databases
@@ -30,8 +22,6 @@ DATABASES = {
 
 # Internationalization
 # https://docs.djangoproject.com/en/1.6/topics/i18n/
-
-LANGUAGE_CODE = 'en-us'
 
 TIME_ZONE = 'UTC'
 
