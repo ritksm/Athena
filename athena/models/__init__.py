@@ -4,4 +4,5 @@
 __author__ = 'Jack River'
 
 
-from .question import *
+from athena.models.question import *
+from athena.models.answer import *
